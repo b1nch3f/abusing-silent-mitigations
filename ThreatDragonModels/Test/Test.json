@@ -12,40 +12,6 @@
         "diagramJson": {
           "cells": [
             {
-              "type": "tm.Process",
-              "size": {
-                "width": 100,
-                "height": 100
-              },
-              "position": {
-                "x": 84,
-                "y": 189
-              },
-              "angle": 0,
-              "id": "ce03f160-19e1-4fb0-8c1f-e4ff3d4b2861",
-              "z": 1,
-              "hasOpenThreats": true,
-              "threats": [
-                {
-                  "status": "Open",
-                  "severity": "Medium",
-                  "type": "Elevation of privilege",
-                  "title": "Buffer overflow"
-                }
-              ],
-              "attrs": {
-                ".element-shape": {
-                  "class": "element-shape hasOpenThreats isInScope"
-                },
-                "text": {
-                  "text": "process 0"
-                },
-                ".element-text": {
-                  "class": "element-text hasOpenThreats isInScope"
-                }
-              }
-            },
-            {
               "type": "tm.Boundary",
               "smooth": true,
               "source": {
@@ -89,36 +55,28 @@
               }
             },
             {
-              "type": "tm.Flow",
-              "smooth": true,
-              "source": {
-                "id": "ce03f160-19e1-4fb0-8c1f-e4ff3d4b2861"
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
               },
-              "target": {
-                "id": "e947e22b-66f2-4605-9062-ce822bdb68f5"
+              "position": {
+                "x": 71,
+                "y": 223
               },
-              "vertices": [],
-              "id": "2aa7a9af-6144-4b61-a4ca-554534ed3697",
-              "labels": [
-                {
-                  "position": 0.5,
-                  "attrs": {
-                    "text": {
-                      "text": "flow 3",
-                      "font-weight": "400",
-                      "font-size": "small"
-                    }
-                  }
-                }
-              ],
+              "angle": 0,
+              "id": "ebe0e798-3adf-47bf-ae69-147b3e24e42e",
               "z": 5,
               "hasOpenThreats": false,
               "attrs": {
-                ".marker-target": {
-                  "class": "marker-target hasNoOpenThreats isInScope"
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
                 },
-                ".connection": {
-                  "class": "connection hasNoOpenThreats isInScope"
+                "text": {
+                  "text": "process 2"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
                 }
               }
             }
