@@ -70,27 +70,6 @@
                   "class": "element-text hasNoOpenThreats isInScope"
                 }
               }
-            },
-            {
-              "type": "tm.Boundary",
-              "smooth": true,
-              "source": {
-                "x": 30,
-                "y": 20
-              },
-              "target": {
-                "x": 352,
-                "y": 359
-              },
-              "vertices": [
-                {
-                  "x": 192,
-                  "y": 67
-                }
-              ],
-              "id": "9f80439f-5b87-4fb1-8de0-839db74648cd",
-              "z": 3,
-              "attrs": {}
             }
           ]
         },
